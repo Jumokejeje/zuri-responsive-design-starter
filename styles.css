@@ -345,3 +345,23 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+@media screen and (max-width: 600px) {
+  ul.nav-links {
+    flex-direction: column; 
+  }
+  div.snapshot-box-content{flex-direction: column;}
+  div.hero-content-heading h3 {font-size: 1.5rem;
+    font-weight: 200}
+    div.hero-section{padding: 5rem}
+    div.footer-input{flex-direction: column;}
+    input[type="text"]{width: 100%; margin-bottom: 1rem}
+    input[type="email"]{width: 100%}
+    textarea{width: 100%}
+    div.hero-background{padding: 2rem}
+    div.background{height: 300px}
+    div.hero-background-pos{width: 120px; height: 120px}
+    div.background h4{padding: 0.5rem}
+    div.background p{padding: 0.5rem}
+div.nav-bar{padding: 1rem 1rem}
+
+}
